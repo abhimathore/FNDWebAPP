@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome To FND</title>
+</head>
+<body>
+	<h3>FNC</h3>
+	<form action="/result/" method="post"> {% csrf_token %}
+    <label>Enter text: </label>
+    <input type="text" name="title" value="" size="100">
+    <input type="submit" value="OK">
+</form>
+</body>
+</html>
